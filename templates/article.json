@@ -13,25 +13,22 @@
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
+            "blog_show_author": true
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
-        "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
