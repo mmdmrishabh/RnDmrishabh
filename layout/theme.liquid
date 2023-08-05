@@ -285,7 +285,7 @@
     function h(t) {
         (c = e.createElement(t ? "script" : "iframe")),
             t || (c.setAttribute("style", "display:block;width:0;height:0;border:0;visibility:hidden"), c.setAttribute("aria-hidden", !0)),
-            (c.src = "{{ 'partytown-atomics.js' | asset_url }}?v=0.8.0" + Date.now(),
+            (c.src = "{{ 'partytown-atomics.js' | asset_url }}?v=0.8.0" + Date.now()),
             e.querySelector(o.sandboxParent || "body").appendChild(c);
     }
     function f(n, r) {
