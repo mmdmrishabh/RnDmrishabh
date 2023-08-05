@@ -244,7 +244,8 @@
     </script>
 
     <script>
-      const worker = new Worker('worker.js');
+      const worker = new Worker('{{ 'worker.js' | shopify_asset_url }}');
+      
       worker.onmessage = function(event) {
         console.log('Worker said: ' + event.data);
       };
