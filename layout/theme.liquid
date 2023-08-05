@@ -272,7 +272,7 @@
                       r
                           ? h(1)
                           : n.serviceWorker
-                          ? n.serviceWorker.register("{{ 'partytown-sw.js' | asset_url }}"), { scope: a }).then(function (t) {
+                          ? n.serviceWorker.register("{{ 'partytown-sw.js' | asset_url }}").then(function (t) {
                                 t.active
                                     ? h()
                                     : t.installing &&
