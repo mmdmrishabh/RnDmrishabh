@@ -242,6 +242,14 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script>
+      const worker = new Worker('worker.js');
+      worker.onmessage = function(event) {
+        console.log('Worker said: ' + event.data);
+      };
+      worker.postMessage('Hello, worker!');
+    </script>
   </head>
 
   <body class="gradient">
