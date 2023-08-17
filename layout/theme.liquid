@@ -324,7 +324,9 @@
     {%- if settings.cart_type == 'drawer' -%}
       {%- render 'cart-drawer' -%}
     {%- endif -%}
-    <h1>{{ request.path }}</h1>
+    <h1> Test
+    {{ shop.customer_accounts_enabled }} 😊
+    </h1>
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
