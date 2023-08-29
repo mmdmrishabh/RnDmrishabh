@@ -338,8 +338,8 @@
     -%}
   {% capture finalurl %}https://{{ pageUrl }}{% endcapture %}
   {{ finalurl }}
-    <h1> Test
-    {{ finalurl | split: "?" | first }} 😊
+    <h1>
+    {{ finalurl | split: "?" | last }} 😊
     </h1>
    
     
