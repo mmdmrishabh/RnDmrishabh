@@ -325,7 +325,8 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
     <h1> Test
-    {{ shop.customer_accounts_enabled }} 😊
+    {{ request.path }} 😊
+    {{ request.param }} 😊
     </h1>
     {% sections 'header-group' %}
 
