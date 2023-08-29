@@ -344,6 +344,9 @@
     {% assign current_url = '' %}
 
 {% case template %}
+{% when 'index' %}
+  
+{% assign current_url = index.url %}
 {% when 'page' %}
 {% assign current_url = page.url %}
 {% when 'blog' %}
