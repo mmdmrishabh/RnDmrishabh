@@ -341,26 +341,7 @@
     <h1> Test
     {{ finalurl  }} 😊
     </h1>
-    {% assign current_url = '' %}
-
-{% case template %}
-{% when 'index' %}
-  
-{% assign current_url = index.url %}
-{% when 'page' %}
-{% assign current_url = page.url %}
-{% when 'blog' %}
-{% assign current_url = blog.url %}
-{% when 'article' %}
-{% assign current_url = blog.url %}
-{% when 'collection' %}
-{% assign current_url = collection.url %}
-{% when 'product' %}
-{% assign current_url = product.url %}
-{% endcase %}
-<h2> 
-    {{ current_url  }} 😊
-    </h2>
+   
     
     
     {% sections 'header-group' %}
