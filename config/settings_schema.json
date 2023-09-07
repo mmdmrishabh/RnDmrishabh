@@ -8,6 +8,50 @@
     "theme_support_url": "https:\/\/shopify.dev\/docs\/apps\/tools\/development-stores\/generated-data#themes\/"
   },
   {
+    "name": "FONT CUSTOME",
+    "settings": [
+      {
+        "type": "text",
+        "id": "font_name",
+        "label": "Font Name"
+      },
+      {
+        "type": "text",
+        "id": "font_weight",
+        "label": "Font weight"
+      },
+      {
+        "type": "select",
+        "id": "font_format",
+        "label": "Font format",
+        "options": [
+          {
+            "value": "ttf",
+            "label": "TrueType Fonts (TTF)"
+          },
+          {
+            "value": "otf",
+            "label": "OpenType Fonts (OTF)"
+          },
+          {
+            "value": "woff",
+            "label": "The Web Open Font Format (WOFF)"
+          },
+          {
+            "value": "woff2",
+            "label": "The Web Open Font Format (WOFF 2.0)"
+          }
+        ],
+        "default": "woff2"
+      },
+      {
+        "type": "url",
+        "id": "font_link",
+        "label": "Font link"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.logo.name",
     "settings": [
       {
