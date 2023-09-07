@@ -11,6 +11,10 @@
     "name": "FONT CUSTOME",
     "settings": [
       {
+        "type": "header",
+        "content": "Font 1"
+      },
+      {
         "type": "text",
         "id": "font_name",
         "label": "Font Name"
@@ -42,6 +46,82 @@
       {
         "type": "url",
         "id": "font_link",
+        "label": "Font link"
+      },
+      {
+        "type": "header",
+        "content": "Font 2"
+      },
+      {
+        "type": "text",
+        "id": "font_name_2",
+        "label": "Font Name"
+      },
+      {
+        "type": "select",
+        "id": "font_format_2",
+        "label": "Font format",
+        "options": [
+          {
+            "value": "ttf",
+            "label": "TrueType Fonts (TTF)"
+          },
+          {
+            "value": "otf",
+            "label": "OpenType Fonts (OTF)"
+          },
+          {
+            "value": "woff",
+            "label": "The Web Open Font Format (WOFF)"
+          },
+          {
+            "value": "woff2",
+            "label": "The Web Open Font Format (WOFF 2.0)"
+          }
+        ],
+        "default": "woff2"
+      },
+      {
+        "type": "url",
+        "id": "font_link_2",
+        "label": "Font link"
+      },
+      {
+        "type": "header",
+        "content": "Font 3"
+      },
+      {
+        "type": "text",
+        "id": "font_name_3",
+        "label": "Font Name"
+      },
+      {
+        "type": "select",
+        "id": "font_format_3",
+        "label": "Font format",
+        "options": [
+          {
+            "value": "ttf",
+            "label": "TrueType Fonts (TTF)"
+          },
+          {
+            "value": "otf",
+            "label": "OpenType Fonts (OTF)"
+          },
+          {
+            "value": "woff",
+            "label": "The Web Open Font Format (WOFF)"
+          },
+          {
+            "value": "woff2",
+            "label": "The Web Open Font Format (WOFF 2.0)"
+          }
+        ],
+        "default": "woff2"
+      },
+      {
+        "type": "url",
+        "id": "font_link_3",
         "label": "Font link"
       }
     ]
