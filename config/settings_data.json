@@ -1,13 +1,17 @@
 {
   "current": {
-    "blocks": {
-      "1762459649": {
-        "type": "shopify:\/\/apps\/facebook-pixel-&-tiktok-pixel\/blocks\/one-pixel\/fbbf7f1f-cacf-481b-802e-aa7043758c9c",
-        "disabled": false,
+    "font_name": "FontsFree-Net-DINPro-1",
+    "font_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0800\/8538\/5523\/files\/FontsFree-Net-DINPro-1_1.woff2?v=1690268101",
+    "sections": {
+      "CustomFont": {
+        "type": "CustomFont",
         "settings": {
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
