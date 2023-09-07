@@ -16,11 +16,6 @@
         "label": "Font Name"
       },
       {
-        "type": "text",
-        "id": "font_weight",
-        "label": "Font weight"
-      },
-      {
         "type": "select",
         "id": "font_format",
         "label": "Font format",
