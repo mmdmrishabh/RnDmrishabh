@@ -52,6 +52,14 @@
       font-family: "{{ settings.font_name }}";
       src: url("{{  settings.font_link }}") format("{{  settings.font_format }}");
       }
+      @font-face {
+      font-family: "{{ settings.font_name_2 }}";
+      src: url("{{  settings.font_link_2 }}") format("{{  settings.font_format_2 }}");
+      }
+      @font-face {
+      font-family: "{{ settings.font_name_3 }}";
+      src: url("{{  settings.font_link_3 }}") format("{{  settings.font_format_3 }}");
+      }
       {% endif %}
       :root {
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
