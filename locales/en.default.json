@@ -470,5 +470,58 @@
       "message": "Message",
       "max_characters": "{{ max_chars }} characters max"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "processing": {
+        "your_order_has_been_received_title": " "
+      },
+      "thank_you": {
+        "title": " ",
+        "confirmation_email_sent_text": " ",
+        "return_to_store_link_label": " ",
+        "print_link_label": " ",
+        "payment_information_title": " ",
+        "shipping_information_title": " ",
+        "page_title": " ",
+        "page_title_no_name": " ",
+        "purchase_order_number_title": " ",
+        "cancelled_page_title": " ",
+        "customer_information_title": " ",
+        "contact_information_title": " ",
+        "billing_address_title": " ",
+        "company_location_title": " ",
+        "shipping_address_title": " ",
+        "shipping_address_map_title": " ",
+        "payment_method_title": " ",
+        "shipping_method_title": " ",
+        "tracking_number": " ",
+        "company_tracking_number": " ",
+        "estimated_arrival": " ",
+        "estimated_delivery": " ",
+        "re-order": " ",
+        "confirmed": " ",
+        "gift_card_confirmation_by_text": " ",
+        "gift_card_confirmation_by_email": " ",
+        "gift_card_title": " ",
+        "resend_gift_cards": " ",
+        "thank_you_title": " ",
+        "thank_you_title_payment": " ",
+        "thank_you_title_review": " ",
+        "thank_you_confirmed_order_with_email": " ",
+        "thank_you_confirmed_order_with_phone": " ",
+        "thank_you_confirmed_order_with_email_and_phone": " ",
+        "thank_you_confirmed_order_with_email_payment": " ",
+        "thank_you_confirmed_order_with_phone_payment": " ",
+        "thank_you_confirmed_order_with_email_and_phone_payment": " ",
+        "thank_you_confirmed_order_with_email_pick_up": " ",
+        "thank_you_confirmed_order_with_phone_pick_up": " ",
+        "thank_you_confirmed_order_with_email_and_phone_pick_up": " ",
+        "thank_you_confirmed_order_with_missing": " ",
+        "thank_you_confirmed_order_with_draft": " ",
+        "order_status_confirmed_order_with_email": " ",
+        "order_status_confirmed_order_with_phone": " "
+      }
+    }
   }
 }
