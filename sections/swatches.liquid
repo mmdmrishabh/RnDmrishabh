@@ -1,3 +1,18 @@
+<style>
+
+  {% for block in section.blocks %}
+
+    .custom .color-swatch--{{ block.settings.title }}{
+
+      background:{{ block.settings.color_code }};
+    
+    }
+    
+  {% endfor %}
+  
+</style>
+
+
 {% schema %}
 {
   "name": "Color",
