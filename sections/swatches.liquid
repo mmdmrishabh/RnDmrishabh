@@ -1,21 +1,36 @@
 <style>
-
   {% for block in section.blocks %}
-
     .custom .color-swatch--{{ block.settings.title | handleize }}{
-
       {% if block.settings.image != blank or block.settings.title == blank %}
       background:url("{{ block.settings.image | img_url:"small" }}") fixed no-repeat center/cover;
       {% else %}
       background:{{ block.settings.color_code }};
       {% endif %}
-    
     }
-    
   {% endfor %}
-  
 </style>
 
+<!-- Improved version -->
+<style>
+  {% for block in section.blocks %}
+  .item-swatch [data-value="{{ block.settings.title }}"],
+  .item-swatch [data-value="{{ block.settings.title | downcase }}"],
+  .item-swatch [data-value="{{ block.settings.title | downcase | handle }}"],
+  .item-swatch [data-value="{{ block.settings.title | capitalize  }}"],
+  .swatch [data-value="{{ block.settings.title }}"] .bgImg,
+  .swatch [data-value="{{ block.settings.title | downcase }}"] .bgImg,
+  .swatch [data-value="{{ block.settings.title | capitalize  }}"] .bgImg,
+  .color-swatch-enabled[data-tag="{{ block.settings.title }}"] span,
+  .color-swatch-enabled[data-tag="{{ block.settings.title | downcase }}"] span,
+  .color-swatch-enabled[data-tag="{{ block.settings.title | capitalize }}"] span {
+    {% if block.settings.image != blank or block.settings.title == blank %}
+      background:url("{{ block.settings.image | img_url:"small" }}") fixed no-repeat center/cover !important;
+      {% else %}
+      background:{{ block.settings.color_code }} !important;
+      {% endif %}
+  }
+  {% endfor %}
+</style>
 
 {% schema %}
 {
