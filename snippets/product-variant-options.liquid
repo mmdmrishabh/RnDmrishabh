@@ -61,7 +61,7 @@
     >
     {% if option.name == "color" or option.name == "Color" %}
 
-  <label color-swatch--{{ value | handleize }} for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label class="color-swatch--{{ value | handleize }}"" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
     {% else %}
