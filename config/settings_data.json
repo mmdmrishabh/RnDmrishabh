@@ -133,10 +133,26 @@
               "title": "Adventure green",
               "color_code": "linear-gradient(180deg, rgba(82, 85, 17, 0.64), rgba(127, 72, 176, 1) 100%, rgba(120, 149, 42, 1) 100%)"
             }
+          },
+          "color_settings_wtVRJe": {
+            "type": "colorSettings",
+            "settings": {
+              "title": "Dynamic blue",
+              "color_code": "linear-gradient(46deg, rgba(52, 133, 236, 1) 13%, rgba(170, 248, 219, 1) 86%)"
+            }
+          },
+          "color_settings_kFiTQc": {
+            "type": "colorSettings",
+            "settings": {
+              "title": "Maroon red",
+              "color_code": "linear-gradient(180deg, rgba(255, 145, 129, 1), rgba(254, 91, 124, 1) 49%, rgba(255, 140, 162, 1) 100%)"
+            }
           }
         },
         "block_order": [
-          "color_settings_Mn6eEA"
+          "color_settings_Mn6eEA",
+          "color_settings_wtVRJe",
+          "color_settings_kFiTQc"
         ],
         "settings": {
         }
