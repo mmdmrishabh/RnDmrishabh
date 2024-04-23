@@ -131,7 +131,8 @@
             "type": "colorSettings",
             "settings": {
               "title": "Adventure green",
-              "color_code": "linear-gradient(180deg, rgba(82, 85, 17, 0.64), rgba(127, 72, 176, 1) 100%, rgba(120, 149, 42, 1) 100%)"
+              "color_code": "linear-gradient(180deg, rgba(82, 85, 17, 0.64), rgba(127, 72, 176, 1) 100%, rgba(120, 149, 42, 1) 100%)",
+              "image": "shopify:\/\/shop_images\/Rectangle6426.jpg"
             }
           },
           "color_settings_wtVRJe": {
