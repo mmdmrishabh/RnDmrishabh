@@ -5,7 +5,7 @@
     .custom .color-swatch--{{ block.settings.title | handleize }}{
 
       {% if block.settings.image != blank or block.settings.title == blank %}
-      background:url("{{ block.settings.image }}");
+      background:url("{{ block.settings.image | img_url:"small" }}");
       {% else %}
       background:{{ block.settings.color_code }};
       {% endif %}
